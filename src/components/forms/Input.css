@@ -1,0 +1,22 @@
+input {
+  width: 256px;
+  height: 48px;
+  left: 877px;
+  top: 462px;
+
+  border: 1px solid #989fdb;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+label {
+  width: 72px;
+  height: 14px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 48px;
+  text-transform: uppercase;
+}

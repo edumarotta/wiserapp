@@ -1,0 +1,68 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.body-all {
+  display: flex;
+}
+
+.body-right {
+  justify-content: center;
+  padding: 112px 136px;
+}
+
+.body-left {
+  background-image: url('./img/bg-left.jpg');
+  width: 765px;
+  height: 768px;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 48px;
+  font-size: 40px;
+  color: #383e71;
+}
+
+h3 {
+  color: #989fdb;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #989fdb;
+}
+
+.teste {
+  color: blue;
+  font-weight: bold;
+}
+
+/*Tablets */
+@media only screen and (min-width: 379px) and (max-width: 768px) {
+  .body-left {
+    background-image: url('./img/bg-left-tb.jpg');
+    max-width: 765px;
+    max-height: 768px;
+  }
+}
+
+/*Iphone 8 */
+@media only screen and (max-width: 378) {
+  .body-left {
+    display: none;
+  }
+
+  .body-right {
+    background-image: url('./img/bg-left.jpg');
+    max-width: 378px;
+  }
+
+  .cardForm {
+    background: white;
+    padding: 20px;
+  }
+}
