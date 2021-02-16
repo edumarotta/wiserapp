@@ -31,9 +31,20 @@ const Password = styled.h4`
   line-height: 20px;
 `;
 
+const BodyAll = styled.div`
+  display: flex;
+  flex: 1;
+`;
+
+const BodyLeft = styled.div`
+  background-image: url('./img/bg-left.jpg');
+  width: 765px;
+  height: 768px;
+`;
+
 const App = () => {
   return (
-    <div className="body-all">
+    <BodyAll>
       <div className="body-left"></div>
 
       <div className="body-right">
@@ -51,7 +62,7 @@ const App = () => {
           </Password>
         </div>
       </div>
-    </div>
+    </BodyAll>
   );
 };
 
