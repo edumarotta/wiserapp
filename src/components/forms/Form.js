@@ -4,7 +4,7 @@ import Input from './Input';
 
 const Form = () => {
   const [email, setEmail] = React.useState('');
-  const [senha, setSenha] = React.useState('');
+  const [password, setSenha] = React.useState('');
 
   return (
     <form className="form">
@@ -16,10 +16,15 @@ const Form = () => {
         placeholder="user.name@mail.com"
         required
       />
-      <br />
-      <label>Senha</label>
-      <br />
-      <input type="password" placeholder="*****"></input>
+
+      <Input
+        id="senha"
+        label="senha"
+        value={password}
+        setValue={setSenha}
+        placeholder="****"
+        required
+      />
 
       <Button />
     </form>
