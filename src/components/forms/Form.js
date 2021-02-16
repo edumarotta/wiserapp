@@ -16,13 +16,9 @@ const Form = () => {
         placeholder="user.name@mail.com"
         required
       />
-      <Input
-        id="senha"
-        label="senha"
-        type="password"
-        value={senha}
-        setvalue={setSenha}
-      />
+      <br />
+      <input type="password" placeholder="*****"></input>
+
       <Button />
     </form>
   );
