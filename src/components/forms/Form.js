@@ -17,6 +17,8 @@ const Form = () => {
         required
       />
       <br />
+      <label>Senha</label>
+      <br />
       <input type="password" placeholder="*****"></input>
 
       <Button />
